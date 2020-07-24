@@ -1,0 +1,29 @@
+.steps_frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(238, 235, 235);
+    height: auto;
+    width: 89vw;
+    margin: 2vw;
+    padding: 3vw;
+}
+
+.each_step_frame {
+    width: 30vw;
+    height: auto;
+}
+
+.line{
+    width: 27vw;
+    border-bottom: 5px solid lightgray;
+}
+
+.step_number {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.step_name {
+    margin: 0;
+}

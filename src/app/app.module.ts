@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { StepsComponent } from './steps/steps.component';
+import { PropertyTypeComponent } from './property-type/property-type.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StepsComponent,
+    PropertyTypeComponent
   ],
   imports: [
     BrowserModule,

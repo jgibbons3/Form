@@ -1,0 +1,26 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_title {
+    margin: 2vw;
+    font-size: 1em;
+}
+
+.property_type_style {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    align-content: center;
+    background-color: #6398DE;
+    width: 9vw;
+    padding: 1vw;
+    font-size: 0.9em;
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+}

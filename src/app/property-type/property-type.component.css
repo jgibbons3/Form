@@ -1,0 +1,19 @@
+.property_type_frame {
+    width: 45vw;
+    height: 20vh;
+    border: 2px solid lightgray;
+    margin: 2vw;
+}
+
+.property_type_option {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.property_type_frame.selected {
+    width: 45vw;
+    height: 20vh;
+    border: 2px solid lightskyblue;
+    margin: 2vw;
+}
