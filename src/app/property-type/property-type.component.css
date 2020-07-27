@@ -1,8 +1,8 @@
 .property_type_frame {
-    width: 45vw;
+    width: 45.5vw;
     height: 20vh;
     border: 2px solid lightgray;
-    margin: 2vw;
+    margin: 1vw;
 }
 
 .property_type_option {
@@ -12,8 +12,8 @@
 }
 
 .property_type_frame.selected {
-    width: 45vw;
+    width: 45.5vw;
     height: 20vh;
     border: 2px solid lightskyblue;
-    margin: 2vw;
+    margin: 1vw;
 }

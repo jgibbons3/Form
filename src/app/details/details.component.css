@@ -1,0 +1,39 @@
+.details_frame {
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    width: 100vw;
+}
+
+.details_subframe {
+    width: 50vw;
+}
+
+.details_label {
+    color: gray;
+    margin-right: 0.5vw;
+}
+
+.details_input {
+    width: 45vw;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+::placeholder {
+    color: black;
+}
+
+p.details_label {
+    margin-top: 0.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.asterisk {
+    color: red;
+    margin-top: 2vh;
+}
+

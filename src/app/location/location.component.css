@@ -1,0 +1,20 @@
+.location_frame {
+    margin: 1vw;
+}
+
+.input_location {
+    width: 94vw;
+    height: 4vh;
+    border-color: lightgray;
+}
+
+.location_sentence {
+    color: gray;
+    margin-top: 0.5vh;
+}
+
+.map_frame {
+    width: 94.5vw;
+    height: 40vh;
+    border: 2px solid lightgray;
+}

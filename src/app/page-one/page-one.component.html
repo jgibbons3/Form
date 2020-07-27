@@ -1,0 +1,24 @@
+<div class="page_one_frame">
+    <div class="property_type_title">
+        <h6 class="component_title">Choose a property type</h6>
+        <span class="asterisk">*</span>
+    </div>
+
+    <div class="property_type_style">
+        <app-property-type (selected_property_type)="propertyTypeSelected($event)" [property_type]="property_type_1" 
+        [property_type_selected]="property_type_selected"></app-property-type>
+        <app-property-type (selected_property_type)="propertyTypeSelected($event)" [property_type]="property_type_2" 
+        [property_type_selected]="property_type_selected"></app-property-type>
+    </div>
+
+    <div class="property_type_title">
+        <h6 class="component_title">Pick a location</h6>
+        <span class="asterisk">*</span>
+    </div>
+
+    <app-location></app-location>
+
+    <h6 class="component_title">Provide us with these details:</h6>
+    <app-details></app-details>
+    <button (click)="next_page_two('page_two')" class="button">Continue</button>
+</div>

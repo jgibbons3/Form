@@ -1,16 +1,7 @@
 <div class="mainPage">
-  <h5 class="main_title">{{ title }}</h5>
+  <h1 class="main_title">{{ title }}</h1>
 
   <app-steps></app-steps>
 
-  <p>Choose a property type*</p>
-  <div class="property_type_style">
-    <app-property-type (selected_property_type)="propertyTypeSelected($event)" [property_type]="property_type_1" [property_type_selected]="property_type_selected"></app-property-type>
-    <app-property-type (selected_property_type)="propertyTypeSelected($event)" [property_type]="property_type_2" [property_type_selected]="property_type_selected"></app-property-type>
-  </div>
-
-  <p>Pick a location*</p>
-
-  <button class="button">Continue</button>
 </div>
 <router-outlet></router-outlet>

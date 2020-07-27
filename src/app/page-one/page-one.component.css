@@ -1,0 +1,38 @@
+.page_one_frame {
+    margin-left: 2vw;
+}
+
+.property_type_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.component_title {
+    margin: 2vh;
+    margin-right: 1vw;
+    font-size: 1em;
+}
+
+.asterisk {
+    color: red;
+    margin-top: 2vh;
+}
+
+.property_type_style {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-left: 87vw;
+    margin-bottom: 4vh;
+    background-color: #6398DE;
+    width: 9vw;
+    padding: 1vw;
+    font-size: 0.9em;
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+}

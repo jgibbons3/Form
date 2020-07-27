@@ -15,5 +15,6 @@ export class AppComponent {
     this.property_type_selected = value
     
   }
+
 }
 
