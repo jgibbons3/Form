@@ -23,10 +23,23 @@
     flex-direction: row;
 }
 
+.next_page_frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.message_frame {
+    width: 87vw;
+}
+
+.form_incomplete_message {
+    margin-left: 52vw;
+    color: red;
+}
+
 .button {
     display: flex;
     justify-content: center;
-    margin-left: 87vw;
     margin-bottom: 4vh;
     background-color: #6398DE;
     width: 9vw;

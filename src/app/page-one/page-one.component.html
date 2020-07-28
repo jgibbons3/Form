@@ -16,9 +16,19 @@
         <span class="asterisk">*</span>
     </div>
 
-    <app-location></app-location>
+    <app-location (locationValue)="locationSelected($event)" [property_location]="property_location"></app-location>
 
     <h6 class="component_title">Provide us with these details:</h6>
-    <app-details></app-details>
-    <button (click)="next_page_two('page_two')" class="button">Continue</button>
+    <app-details (buildingYearValue)="buildingYearSelected($event)" (livingAreaValue)="livingAreaSelected($event)" 
+    (landAreaValue)="landAreaSelected($event)"
+    [building_year]="building_year" [living_are]="living_are" [land_area]="land_area"></app-details>
+
+    <div class="next_page_frame">
+        <div class="message_frame">
+            <p *ngIf="message" class="form_incomplete_message">{{ message }}</p>
+        </div>
+        <div>
+            <button (click)="next_page_two('page_two')" class="button">Continue</button>
+        </div>
+    </div>
 </div>

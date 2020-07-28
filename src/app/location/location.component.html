@@ -1,7 +1,11 @@
 <div class="location_frame">
-    <input class="input_location" placeholder="Enter an address or postal code">
+
+    <input #property_location (keyup)="location_value(property_location.value)" class="input_location" 
+    placeholder="Enter an address or postal code">
     <p class="location_sentence">We only use location of your property to calculate the valuation</p>
+
     <div class="map_frame">
         map goes here
     </div>
+
 </div>

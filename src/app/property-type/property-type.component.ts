@@ -13,8 +13,6 @@ export class PropertyTypeComponent implements OnInit {
 
   selectedPropertyType(value: string) {
     this.selected_property_type.emit(value)
-    // this.type_selected
-    // console.log("hola", this.property_type_selected)
   }
 
   constructor() { }

@@ -2,18 +2,18 @@
     <div class="details_subframe">
         <label class="details_label">Building year</label>
         <span class="asterisk">*</span>
-        <input class="details_input" placeholder="1984">
+        <input #building_year (keyup)="building_year_value(building_year.value)" class="details_input" placeholder="1984">
         <p class="details_label">1850 - 2022</p>
         
         <label class="details_label">Land area (m2)</label>
         <span class="asterisk">*</span>
-        <input class="details_input" placeholder="20">
+        <input #living_are (keyup)="living_are_value(living_are.value)" class="details_input" placeholder="20">
         <p class="details_label">20 - 500 m2</p>
     </div>
     <div class="details_subframe">
         <label class="details_label">Net living area (m2)</label>
         <span class="asterisk">*</span>
-        <input class="details_input" placeholder="45">
+        <input #land_area (keyup)="land_area_value(land_area.value)" class="details_input" placeholder="45">
         <p class="details_label">20 - 500 m2</p>
     </div>
 </div>
