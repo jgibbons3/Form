@@ -19,6 +19,12 @@
     border-bottom: 5px solid lightgray;
 }
 
+.green_line {
+    position: absolute;
+    width: 5.5vw;
+    border-bottom: 5px solid rgb(64, 194, 64);
+}
+
 .step_number {
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
@@ -27,3 +33,7 @@
 .step_name {
     margin: 0;
 }
+
+.example-margin {
+    width: 27vw;
+  }

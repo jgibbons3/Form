@@ -1,6 +1,13 @@
 <div class="steps_frame">
     <div class="each_step_frame">
-        <div class="line"></div>
+        <mat-progress-bar
+          class="example-margin"
+          [color]="color"
+          [mode]="mode"
+          [value]="value"
+          [bufferValue]="bufferValue">
+        </mat-progress-bar>
+      
         <h6 class="step_number">STEP 1</h6>
         <p class="step_name">Start with the basics</p>
     </div>
